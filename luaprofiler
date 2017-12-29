@@ -377,6 +377,8 @@ global bts
 global lua_states
 global cfuncs
 global fc
+global luaStateIdx = -1
+global luaStateStack
 
 function dumpbts() {
     foreach (bt in bts-) {
