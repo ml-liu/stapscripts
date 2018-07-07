@@ -1,0 +1,1 @@
+./luamemprofiler --lua51 -p pid -q tid -t seconds  -L lualibrary
